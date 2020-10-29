@@ -1,0 +1,7 @@
+name: Plugin
+main: me.QuantumDev.Plugin.Plugin
+version: 1.0.0
+
+commands:
+  example:
+    description: example command
