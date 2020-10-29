@@ -1,10 +1,10 @@
-<h1>About<h1>
+<h1>About</h1>
 CommandManager is a simple command manager that can be used in all your plugins. It allows you to just create the command class, add the command to your plugin.yml, and the command will just execute! None of this setting the executer for every single command; it's as easy as that.
 
-<h1>Usage<h1>
+<h1>Usage</h1>
 Download the latest release, and add it as a library to your plugin. Next, in your `onCommand` method (normally your main class or one that implements `CommandExecutor`), add CommandManager.executeCommand(), and fill in the parametsr with the sender, command object, arguments array, and finally the directory path. This would be me.QuantumDev.ExamplePlugin for me. Then, to create a command, simply extend the command class (within the dirPath package) to `BaseCommand`, and make sure to implement the `execute()` method and the constructor. 
 
-<h1>Example:<h1>
+<h1>Example:</h1>
 
 ```javascript
 package me.QuantumDev.Plugin;
@@ -23,7 +23,7 @@ public class ExampleCommand extends BaseCommand {
 }
 ```
 
-<h1>Constructor Usage<h1>
+<h1>Constructor Usage</h1>
 Inside your constructor, construct a BaseCommand with `super()`. The first (optional) argument is the permission. Leave blank for everyone to use the command without a specific permission. The second argument is whether to allow console (boolean), and finally the last is whether to require OP status to execute the command (boolean).
 
 Hopefully this makes everyone's lives easier, and thanks for reading!
