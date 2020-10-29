@@ -9,7 +9,7 @@ Download the latest release, and add it as a library to your plugin. Next, in yo
 ## Example:
 
 ```java
-package me.QuantumDev.Plugin;
+package me.QuantumDev.ExamplePlugin;
 
 import me.QuantumDev.CommandManager.BaseCommand;
 import org.bukkit.command.CommandSender;
