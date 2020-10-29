@@ -1,4 +1,4 @@
-package me.QuantumDev.ExamplePlugin;
+package me.QuantumDev.Plugin;
 
 import me.QuantumDev.CommandManager.CommandManager;
 import org.bukkit.command.Command;
